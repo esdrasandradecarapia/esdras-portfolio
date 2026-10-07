@@ -1,0 +1,8 @@
+# SO / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build do workflow (gerado no CI)
+_site/
