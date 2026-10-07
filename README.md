@@ -37,7 +37,8 @@ esdras-portfolio/
 │   ├── docs/
 │   │   └── Curriculo_Esdras_Andrade.pdf
 │   └── img/
-│       └── favicon.svg
+│       ├── favicon.svg
+│       └── og-image.png       # Prévia de links (1200×630)
 ├── docs/
 │   └── ARCHITECTURE.md        # Decisões técnicas do projeto
 ├── .github/workflows/
@@ -126,7 +127,7 @@ Configuração única no GitHub:
 
 ## Roadmap
 
-- [ ] Imagem de prévia (Open Graph) para links no LinkedIn e WhatsApp
+- [x] Imagem de prévia (Open Graph) para links no LinkedIn e WhatsApp
 - [ ] Foto no topo
 - [ ] Versão em inglês
 - [ ] Domínio próprio
