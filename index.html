@@ -8,6 +8,10 @@
   <meta name="theme-color" content="#07060b">
 
   <!-- Open Graph: prévia do link no LinkedIn e WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ésdras Andrade · Senior Software Engineer">
+  <meta property="og:description" content="Backend, APIs e arquitetura que aguentam produção, aplicando IA com LLMs, RAG e agentes.">
+  <meta property="og:locale" content="pt_BR">
   <meta property="og:url" content="https://esdrasandradecarapia.github.io/esdras-portfolio/">
   <meta property="og:image" content="https://esdrasandradecarapia.github.io/esdras-portfolio/assets/img/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -18,7 +22,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="assets/css/styles.css">
 
   <script src="assets/js/config.js" defer></script>
@@ -47,44 +51,33 @@
 <main class="wrap" id="topo">
 
   <header class="hero">
-    <div class="hero-title">
-      <div class="eyebrow"><span>Senior Software Engineer</span><span>Backend &amp; Arquitetura</span><span>IA aplicada</span></div>
-      <h1>Ésdras<span class="last">Andrade</span></h1>
-    </div>
+    <figure class="avatar">
+      <picture>
+        <source srcset="assets/img/esdras.webp" type="image/webp">
+        <img src="assets/img/esdras.jpg" alt="Foto de Ésdras Andrade" width="640" height="800" fetchpriority="high">
+      </picture>
+    </figure>
     <div class="hero-copy">
-      <p class="lead">Engenheiro de software com <strong>mais de 12 anos construindo backend, APIs e arquiteturas</strong> que aguentam produção, com experiência liderando times técnicos. Hoje aplico essa base em <strong>sistemas com LLMs, RAG e agentes de IA</strong>.</p>
+      <p class="role">Senior Software Engineer · Backend &amp; IA</p>
+      <h1><span class="prompt" aria-hidden="true">&gt;</span>Ésdras <span class="last">Andrade</span><span class="caret" aria-hidden="true"></span></h1>
+      <p class="lead">Mais de 12 anos construindo <strong>backend, APIs e arquiteturas</strong>. Hoje aplicando <strong>LLMs, RAG e agentes de IA</strong>.</p>
       <div class="cta">
         <a class="btn primary js-wa" href="#" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
           WhatsApp
         </a>
-        <a class="btn ghost-purple js-li" href="#" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
-          LinkedIn
-        </a>
-        <a class="btn js-gh" href="#" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
-          GitHub
-        </a>
         <a class="btn js-cv" href="assets/docs/Curriculo_Esdras_Andrade.pdf" target="_blank" rel="noopener" download>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
-          Baixar CV (PDF)
+          Baixar CV
+        </a>
+        <a class="btn icon js-li" href="#" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+        </a>
+        <a class="btn icon js-gh" href="#" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
         </a>
       </div>
     </div>
-
-    <figure class="trace" aria-label="Demonstração ilustrativa de um agente de IA do projeto Legal Case Intelligence" style="margin:0">
-      <div class="trace-head"><span>legal-case-intelligence · trace</span><span class="live"><i></i>demo</span></div>
-      <div class="trace-body">
-        <div class="q"><span class="dim">&gt;</span> "Quais cláusulas de multa existem no contrato do caso #214?"</div>
-        <div class="row"><span class="k">plan</span><span>classifica intenção → busca documental</span></div>
-        <div class="row"><span class="k">tool</span><span>search_documents(case=214, k=5)</span></div>
-        <div class="row"><span class="k">retrieve</span><span>3 chunks · pgvector · <span class="dim">41 ms</span></span></div>
-        <div class="row"><span class="k">rerank</span><span>score ≥ 0.78 · 2 evidências</span></div>
-        <div class="row"><span class="k">answer</span><span>2 cláusulas + citações [p.4, p.11]</span></div>
-        <div class="ok">✓ 1.284 tokens · US$ 0,004 · 1,8 s <span class="caret"></span></div>
-      </div>
-    </figure>
   </header>
 
   <div class="stats" aria-label="Números">
@@ -206,9 +199,18 @@
           <span class="status"><i></i>Em desenvolvimento</span>
           <h3>Legal Case Intelligence</h3>
           <p>O advogado cria um caso, envia petições, contratos e e-mails, e faz perguntas. O sistema responde com citações e evidências tiradas dos próprios documentos. Apoio à pesquisa jurídica, sem tomar decisões no lugar do advogado.</p>
-          <div class="pipeline" aria-label="Pipeline">
-            <span>upload</span><b>→</b><span>chunking</span><b>→</b><span>embeddings</span><b>→</b><span>pgvector</span><b>→</b><span>agente LangGraph</span><b>→</b><span>resposta + fontes</span>
-          </div>
+          <figure class="trace" aria-label="Demonstração ilustrativa de um agente de IA do projeto Legal Case Intelligence">
+            <div class="trace-head"><span>legal-case-intelligence · trace</span><span class="live"><i></i>demo</span></div>
+            <div class="trace-body">
+              <div class="q"><span class="dim">&gt;</span> "Quais cláusulas de multa existem no contrato do caso #214?"</div>
+              <div class="row"><span class="k">plan</span><span>classifica intenção → busca documental</span></div>
+              <div class="row"><span class="k">tool</span><span>search_documents(case=214, k=5)</span></div>
+              <div class="row"><span class="k">retrieve</span><span>3 chunks · pgvector · <span class="dim">41 ms</span></span></div>
+              <div class="row"><span class="k">rerank</span><span>score ≥ 0.78 · 2 evidências</span></div>
+              <div class="row"><span class="k">answer</span><span>2 cláusulas + citações [p.4, p.11]</span></div>
+              <div class="ok">✓ 1.284 tokens · US$ 0,004 · 1,8 s <span class="caret"></span></div>
+            </div>
+          </figure>
           <div class="chips"><span class="chip">Python 3.12</span><span class="chip">FastAPI</span><span class="chip">LangGraph</span><span class="chip">PostgreSQL + pgvector</span><span class="chip">Clean Architecture</span><span class="chip">pytest</span></div>
         </div>
         <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
